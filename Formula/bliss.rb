@@ -1,17 +1,17 @@
 class Bliss < Formula
   desc "Command-line tool for managing K3s infrastructure"
   homepage "https://github.com/weka/bliss"
-  version "2.42.0"
+  version "3.0.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://weka.github.io/bliss/releases/bliss_2.42.0_darwin_arm64.tar.gz"
-      sha256 "9fa422a3151ff4110b54c5b3c0435b28cf0d1d44ae2845ac457332e655f99bdc"
+      url "https://weka.github.io/bliss/releases/bliss_3.0.0_darwin_arm64.tar.gz"
+      sha256 "4f36d69fa1e07357fac1c48d3d7e7c2a07cce0be16989c993dc586429581c28a"
     end
     on_intel do
-      url "https://weka.github.io/bliss/releases/bliss_2.42.0_darwin_amd64.tar.gz"
-      sha256 "4bcab57c0c57691518a4b0c432a379696e54c89b97762a42c54a5824bfb6f1c3"
+      url "https://weka.github.io/bliss/releases/bliss_3.0.0_darwin_amd64.tar.gz"
+      sha256 "c802e37be88a265ae2049fadad95491e79b163bf4ba4604baef5a5eaf8ad58d2"
     end
   end
 
